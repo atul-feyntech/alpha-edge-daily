@@ -1,0 +1,7 @@
+BUCKET_NAME=daily-unhinged-1767046682
+FUNCTION_NAME=daily-unhinged
+REGION=ap-south-1
+AWS_PROFILE=default
+ACCOUNT_ID=894140384556
+EMAIL_RECIPIENT=atul@feyntech.in
+EMAIL_SENDER=atul@feyntech.in
