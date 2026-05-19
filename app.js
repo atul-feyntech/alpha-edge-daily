@@ -1,4 +1,4 @@
-// The Daily Unhinged - Calendar & Digest Viewer
+// Alpha Edge Daily - Calendar & Digest Viewer
 
 // Economic theory definitions with links
 const THEORY_DEFINITIONS = {

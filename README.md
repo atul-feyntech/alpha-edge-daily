@@ -1,22 +1,22 @@
-# The Daily Unhinged
+# Alpha Edge Daily
 
-> Your daily dose of news with the BS filter engaged.
+> Your daily dose of actionable market intelligence.
 
-An autonomous, AI-powered **Quantitative Satire Engine** that scrapes 70+ RSS feeds, ranks stories by importance, and generates economically rigorous yet deeply unhinged commentary—like if George Carlin had a PhD in Economics and a grudge against the Efficient Market Hypothesis.
+An autonomous, AI-powered **Quantitative Alpha Engine** that scrapes 70+ RSS feeds, ranks stories by importance, and generates economically rigorous yet razor-sharp, contrarian market commentary—like if a ruthless hedge fund manager had a PhD in Economics and a grudge against the Efficient Market Hypothesis.
 
 **No human in the loop. Just vibes, scheduled triggers, and the Euler equation.**
 
 ---
 
-## 🧠 The "Unhinged Economist" Engine
+## 🧠 The "Alpha Edge Strategist" Engine
 
 Powered by **Claude 3.5 Sonnet** and a proprietary knowledge base of economic theory (from Cobb-Douglas to the Todaro Paradox), this system doesn't just summarize news—it mathematically proves why the news is stupid.
 
 ### Features
 
 - **Dense Economic Analysis:** High-entropy commentary that respects your time and insults your intelligence
-- **Quantitative Satire:** We don't just say "inflation is bad"; we calculate the shift in the Phillips Curve
-- **Market Predictions:** Specific, unhinged (but theoretically grounded) actionable predictions
+- **Quantitative Alpha:** We don't just say "inflation is bad"; we calculate the shift in the Phillips Curve
+- **Market Predictions:** Specific, bold, contrarian (but theoretically grounded) actionable predictions
 - **Theory Citations:** Every take is backed by actual economic laws—Keynesian Multiplier, Deadweight Loss, CAPM, you name it
 - **LaTeX Equations:** Because nothing says "I'm right" like $Y = AK^\alpha L^{1-\alpha}$
 
@@ -47,7 +47,7 @@ says patience just got more expensive.
 
 ## Live Site
 
-**[https://atul-feyntech.github.io/daily-unhinged-lambda/](https://atul-feyntech.github.io/daily-unhinged-lambda/)**
+**[https://atul-feyntech.github.io/alpha-edge-daily-lambda/](https://atul-feyntech.github.io/alpha-edge-daily-lambda/)**
 
 ## What It Does
 
@@ -55,11 +55,11 @@ Every morning at 7 AM IST, this system autonomously:
 
 1. Wakes up and scrapes **70+ RSS feeds** from India, US, China, and global tech/business sources
 2. Ranks stories using **TF-IDF scoring + keyword importance weighting**
-3. Feeds top stories to **Claude 3 Haiku** with an unhinged system prompt
+3. Feeds top stories to **Claude 3 Haiku** with an alpha-focused system prompt
 4. Generates for each story:
    - **Catchy title** - Captures the real story the headline is hiding
    - **"What happened"** - TL;DR so you don't need to click the link
-   - **"The take"** - Unhinged commentary that makes you snort-laugh
+   - **"The take"** - High-conviction commentary that makes you rethink your portfolio
 5. Emails the digest to subscribers
 6. Publishes to a live website with calendar navigation
 7. Goes back to sleep
@@ -155,11 +155,11 @@ Custom implementation (no sklearn dependency) that weights terms by:
 ### 3. Deduplication
 MD5 hash-based deduplication to remove near-duplicate stories across sources.
 
-## The Unhinged Persona
+## The Alpha Edge Persona
 
 The system prompt creates a commentator with:
 
-- **George Carlin's** euphemism hunting ("synergies" = "we're firing people")
+- **a ruthless hedge fund manager's** euphemism hunting ("synergies" = "we're firing people")
 - **Hunter S. Thompson's** gonzo energy
 - **Richard Feynman's** BS detection
 - **Internet culture** fluency (ALL CAPS, parenthetical asides, memes)
@@ -180,7 +180,7 @@ Each story includes:
 **What happened:** 2-3 sentence summary of the actual news,
 so you don't need to click the link.
 
-> **The take:** Unhinged commentary with ALL CAPS emphasis,
+> **The take:** Contrarian commentary with razor-sharp insight,
 > (parenthetical asides), and internet energy. Goes off on
 > the absurdity while being genuinely informative.
 
@@ -218,8 +218,8 @@ Running this system costs approximately **$1.50 - $2.00 per month** with the Son
 ### Setup
 ```bash
 # Clone the repo
-git clone https://github.com/atul-feyntech/daily-unhinged-lambda.git
-cd daily-unhinged-lambda
+git clone https://github.com/atul-feyntech/alpha-edge-daily-lambda.git
+cd alpha-edge-daily-lambda
 
 # Install dependencies
 pip install -r requirements.txt
@@ -280,8 +280,8 @@ chmod +x teardown.sh
 ## Project Structure
 
 ```
-daily-unhinged/
-├── lambda_function.py    # Main Lambda handler (the Unhinged Economist)
+alpha-edge-daily/
+├── lambda_function.py    # Main Lambda handler (the Alpha Edge Strategist)
 ├── economics_context.md  # Economic theory knowledge base
 ├── deploy.sh             # AWS deployment script
 ├── teardown.sh           # AWS cleanup script
